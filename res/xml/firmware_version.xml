@@ -25,7 +25,7 @@
     <Preference
         android:key="xd_fw_header"
         android:layout="@layout/xd_firmware_header"
-        android:selectable="false"/>
+        android:fragment="com.android.settings.deviceinfo.aboutxd.AboutXDFragments"/>
 
     <!-- Android version -->
     <Preference
