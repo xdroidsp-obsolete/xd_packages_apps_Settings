@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- xd. banner header -->
+    <Preference
+        android:key="xd_fw_header"
+        android:layout="@layout/xd_firmware_header"
+        android:fragment="com.android.settings.deviceinfo.aboutxd.AboutXDFragments"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"

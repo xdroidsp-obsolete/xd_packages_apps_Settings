@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2021 xdroid, xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title=" ">
+
+    <!-- xd. fake toolbar -->
+    <Preference
+        android:title="@string/xd_about"
+        android:key="xd_action_bar"
+        android:layout="@layout/xd_action_bar"
+        android:selectable="false"/>
+
+    <!-- xd. About Header -->
+    <Preference
+        android:key="xd_about_header"
+        android:layout="@layout/xd_about_header"
+        android:selectable="false"/>
+
+    <!-- xd. Desc -->
+    <Preference
+        android:key="xd_about_desc"
+        android:layout="@layout/xd_about_desc"
+        android:selectable="false"/>
+
+    <!-- Core Team Category -->
+    <Preference
+        android:key="xd_about_core_team"
+        android:layout="@layout/xd_pref_category"
+        android:title="@string/xd_about_core_team_cat"
+        android:selectable="false"/>
+
+    <!-- xyzuan -->
+    <Preference
+        android:key="xd_about_xyzuan"
+        android:layout="@layout/xd_about_core_pref"
+        android:icon="@drawable/xd_about_xyzuan"
+        android:title="@string/xd_about_core_xyzuan"
+        android:summary="@string/xd_about_core_xyzuan_role"
+        android:selectable="false"/>
+
+    <Preference
+        android:key="xd_about_friction"
+        android:icon="@drawable/xd_about_friction"
+        android:layout="@layout/xd_about_core_pref"
+        android:title="@string/xd_about_core_friction"
+        android:summary="@string/xd_about_core_friction_role"
+        android:selectable="false"/>
+
+</PreferenceScreen>
