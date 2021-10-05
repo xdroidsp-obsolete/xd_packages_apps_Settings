@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2021 xdroid, xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- xd. Preference -->
+    <style name="xd_text_primary">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+
+    <style name="xd_text_secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="xd_text_primary_medium">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <style name="xd_text_highlight_primary">
+        <item name="android:textSize">21sp</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <style name="xd_text_highlight_secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
+        <item name="android:alpha">0.7</item>
+    </style>
+
+    <style name="xd_text_highlight_primary-white">
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="xd_text_highlight_secondary-white">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#F6F6F6</item>
+        <item name="android:alpha">0.7</item>
+    </style>
+
+    <style name="xd_pref_card_top">
+        <item name="android:layout_marginBottom">-1dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@drawable/xd_pref_card_top</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="xd_pref_card_mid">
+        <item name="android:layout_marginTop">-1dp</item>
+        <item name="android:layout_marginBottom">-1dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_mid</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="xd_pref_card_bot">
+        <item name="android:layout_marginTop">-1dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_bot</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="xd_pref_card_sin">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_sin</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <!-- xd. Dashboard Style -->
+    
+    <style name="xd_dashboard_header">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="xd_dashboard_search">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="xd_dashboard_avatar">
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="xd_dashboard_contextual">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <style name="xd_dashboard_xzrypr">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_dashboard_xzrypr</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="xd_dashboard_pref_card_top">
+        <item name="android:layout_marginBottom">-1dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_top</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="xd_dashboard_pref_card_mid">
+        <item name="android:layout_marginTop">-1dp</item>
+        <item name="android:layout_marginBottom">-1dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_mid</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="xd_dashboard_pref_card_bot">
+        <item name="android:layout_marginTop">-1dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_bot</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="xd_dashboard_pref_card_sin">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_sin</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="xd_about_card_top">
+        <item name="android:layout_marginBottom">-1dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_top</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+    
+    <style name="xd_about_card_bot">
+        <item name="android:layout_marginTop">-1dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_bot</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <!-- xd. Firmware Header Style -->
+    <style name="xd_pref_card_firmware-header">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_firmware-header</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <!-- xd. Firmware Updater Style -->
+    <style name="xd_pref_card_firmware-updater">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_firmware-updater</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+</resources>
