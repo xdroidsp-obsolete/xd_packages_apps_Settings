@@ -33,7 +33,7 @@
         android:layout_marginBottom="8dp"
         android:textSize="34sp"
         android:text="@string/xd_dashboard_greet"
-        android:fontFamily="@font/Poppins-Bold"
+        android:fontFamily="@*android:string/config_headlineFontFamily"
         style="@style/xd_text_primary" />
 
 </FrameLayout>

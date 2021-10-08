@@ -22,6 +22,9 @@
     <!-- xd. Preferences Category -->
     <string name="xd_about_core_team_cat">Core developer</string>
 
+    <!-- xd. Dashboard -->
+    <string name="xd_dashboard_greet">What are you looking for?</string>
+
     <!-- xd. About Phone -->
     <string name="xd_device_name">Device Name</string>
     <string name="xd_device_name_summary">Unknown</string>
