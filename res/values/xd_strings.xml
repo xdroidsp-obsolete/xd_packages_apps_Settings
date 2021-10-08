@@ -22,7 +22,20 @@
     <!-- xd. Preferences Category -->
     <string name="xd_about_core_team_cat">Core developer</string>
 
+    <!-- xd. About Phone -->
+    <string name="xd_device_name">Device Name</string>
+    <string name="xd_device_name_summary">Unknown</string>
+    <string name="xd_chipset_type">Chipset</string>
+    <string name="xd_chipset_type_summary">Unknown</string>
+    <string name="xd_gpu">GPU</string>
+    <string name="xd_gpu_summary">Unknown</string>
+    <string name="xd_camera_mp">Camera</string>
+    <string name="xd_camera_mp_summary">Unknown</string>
+    <string name="xd_screen_type">Screen</string>
+    <string name="xd_screen_type_summary">Unknown</string>
+
     <!-- xd. About -->
+    <string name="xd_about">About xdroid</string>
     <string name="xd_about_desc">xdroid is a custom ROM based on CAF which focusing on simple and minimalism UI while keep maintaining the smoothness and optimization provided by Code Aurora Forum.</string>
     <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
     <string name="xd_about_core_xyzuan_role">Founder, Main Developer and UI Designer</string>
