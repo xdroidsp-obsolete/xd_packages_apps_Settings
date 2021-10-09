@@ -46,6 +46,10 @@ android_library {
 
     srcs: ["src/**/*.java"],
 
+    resource_dirs: ["res",
+                    "res-xdUI"
+    ],
+
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
         "androidx.slice_slice-builders",
